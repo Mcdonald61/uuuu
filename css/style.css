@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.aham{
+    position: relative;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    font-size: 350%;
+}
+.his{
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+nav{
+    background-color: rgb(6, 6, 53);
+}
+.nav-link{
+    font-weight: bolder;
+    color: white;
+}
+.nav-link:hover{
+  background-color: brown;
+
+}
+.nav-item{
+ margin-right: 30%;
+ margin-left: 25%;
+ /* background-color: red; */
+}
+.abt{
+    width: 150%;
+}
+
+  #close{
+      display: none;
+  }
+  #hamburger{
+    display: none;
+}
+/* .image1{} */
+@media screen and (max-width: 600px) {
+    #close{
+      display: block;
+    }
+    #hamburger{
+        display: block;
+    }
+  }
