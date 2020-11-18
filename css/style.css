@@ -48,6 +48,16 @@ nav{
   #hamburger{
     display: none;
 }
+.events{
+    background-color:  rgb(6, 6, 53);
+    
+}
+
+
+
+
+
+
 /* .image1{} */
 @media screen and (max-width: 600px) {
     #close{
