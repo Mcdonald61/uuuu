@@ -1,6 +1,13 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.ike{
+    margin-top: 12%;
 }
 .aham{
     position: relative;
@@ -24,22 +31,37 @@
 }
 nav{
     background-color: rgb(6, 6, 53);
+    /* height: 10px; */
+}
+.navbar-expand-lg{
+    position: sticky;
+    top: 0;
+    z-index: 7;
 }
 .nav-link{
     font-weight: bolder;
     color: white;
+  
 }
 .nav-link:hover{
   background-color: brown;
 
 }
-.nav-item{
- margin-right: 30%;
- margin-left: 25%;
- /* background-color: red; */
+.navbar-nav{
+margin: auto;
+align-content: space-around;
 }
-.abt{
-    width: 150%;
+/* .abt{ */
+    /* width: 150%; */
+/* } */
+.firstbtn{
+    margin-top: 50px;
+}
+.secondbtn{
+    margin-top: 30px;
+}
+.thirdbtn{
+    margin-top: 30px;
 }
 
   #close{
@@ -52,18 +74,43 @@ nav{
     background-color:  rgb(6, 6, 53);
     
 }
+.drdiv{
+    background-color: rgb(75, 69, 69);
+}
+.lastdiv{
+    background-color: rgb(6, 6, 53);
+    /* margin-top: 40px; */
+}
 
+@media screen and (max-width: 575px) {
+    body{
+    text-align: center;
+    
+    }
+    .lastdiv{
+        margin-top: -13px;
+    }
+    .forrecent{
+       padding-bottom: 3%;
+    }
+    .reader{
+        margin-bottom: 3%;
+    }
+    .contacting{
+        margin-top: 20%;
+    }
+    .man{
+        margin-top: 6%;
+    }
+}
 
-
-
-
-
-/* .image1{} */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     #close{
       display: block;
+      margin-right: 10%;
     }
     #hamburger{
         display: block;
+        margin-right: 10%;
     }
   }
